@@ -1,0 +1,333 @@
+/*reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*more reset style*/
+img {
+  vertical-align: top;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+strong {
+  font-weight: bold;
+  vertical-align: top;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: top;
+  line-height: 2.2;
+}
+textarea {
+  overflow: auto;
+}
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+label,
+input[type="button"],
+input[type="submit"],
+input[type="image"],
+button {
+  cursor: pointer;
+}
+input[type="text"]:-webkit-autofill {
+  background-color: white;
+}
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+a {
+  display: block;
+  color: #24242e;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.ir {
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.clear {
+  clear: both;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -moz-binding: url("ellipsis.xml#ellipsis");
+}
+.mEllipsis {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+input,
+textarea {
+  border-radius: 0;
+}
+
+::-moz-selection {
+  background: #1abc9c;
+  color: white;
+}
+::selection {
+  background: #1abc9c;
+  color: white;
+}
+input::-webkit-input-placeholder {
+  color: white !important;
+}
+input:-moz-placeholder {
+  color: white !important;
+} /* Firefox 18- */
+input::-moz-placeholder {
+  color: white !important;
+} /* Firefox 19+ */
+input:-ms-input-placeholder {
+  color: white !important;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Pretendard", "Poppins", "NanumSquareOTFR", Helvetica, Arial,
+    sans-serif;
+  color: #24242e;
+  font-weight: normal;
+  font-size: 80%;
+  font-variant: normal;
+  line-height: 1;
+  background-color: white;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  /*min-width:1920px;*/
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
