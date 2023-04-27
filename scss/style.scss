@@ -88,22 +88,26 @@ main {
         height: 80px;
         overflow: hidden;
         text-align: center;
-        h2 {
-          width: 100%;
-          color: black;
-          font-weight: 900;
-          font-size: 4.5em;
-          line-height: 1.2;
-          letter-spacing: -0.01em;
-          margin-bottom: 21px;
+        .txt-box {
+          h2 {
+            width: 100%;
+            color: black;
+            font-weight: 900;
+            font-size: 4.5em;
+            line-height: 1.2;
+            letter-spacing: -0.01em;
+            margin-bottom: 21px;
+          }
         }
       }
+
       > p {
         color: #777;
         font-size: 1.876em;
       }
       a {
         @include detailViewBtn;
+        margin-top: 20px;
       }
     }
     .img-container {
