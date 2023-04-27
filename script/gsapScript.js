@@ -25,6 +25,7 @@ tl.from(".art07", { duration: 1, opacity: 0, y: 100 }, 1.5);
 tl.from(".art08", { duration: 1, opacity: 0, y: 100 }, 1.5);
 tl.from(".art09", { duration: 1, opacity: 0, y: 100 }, 1.5);
 tl.from(".art10", { duration: 1, opacity: 0, y: 100 }, 1.5);
+tl.from(".mobile", { duration: 1, opacity: 0, y: 150 }, 1.5);
 
 // tl.to(object, { opacity: 0.5 }, "<1"); // 이전 트윈 시작 된 후 1초 뒤에 실행
 // tl.to(object2, { x: 200 }, 1); // 타임라인 1초에 실행
