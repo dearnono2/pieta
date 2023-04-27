@@ -14,17 +14,17 @@ tl.from(
   { duration: 1, opacity: 0, y: -50 },
   "-=0.5"
 ); // 이전 트윈 시작될 때 동시에 실행
-tl.from(".art00", { duration: 1, opacity: 0, y: 100, stagger: 0.2 });
-tl.from(".art01", { duration: 1, opacity: 0, y: 100, stagger: 0.2 });
-tl.from(".art02", { duration: 1, opacity: 0, y: 100 }, 1.5);
-tl.from(".art03", { duration: 1, opacity: 0, y: 100 }, 1.5);
+tl.from(".art00", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
+tl.from(".art01", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
+tl.from(".art02", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
+tl.from(".art03", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
 tl.from(".art04", { duration: 1, opacity: 0, y: 100 }, 1.5);
 tl.from(".art05", { duration: 1, opacity: 0, y: 100 }, 1.5);
 tl.from(".art06", { duration: 1, opacity: 0, y: 100 }, 1.5);
-tl.from(".art07", { duration: 1, opacity: 0, y: 100 }, 1.5);
-tl.from(".art08", { duration: 1, opacity: 0, y: 100 }, 1.5);
-tl.from(".art09", { duration: 1, opacity: 0, y: 100 }, 1.5);
-tl.from(".art10", { duration: 1, opacity: 0, y: 100 }, 1.5);
+tl.from(".art07", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
+tl.from(".art08", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
+tl.from(".art09", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
+tl.from(".art10", { duration: 0.5, opacity: 0, y: 100 }, 1.5);
 tl.from(".mobile", { duration: 1, opacity: 0, y: 150 }, 1.5);
 
 // tl.to(object, { opacity: 0.5 }, "<1"); // 이전 트윈 시작 된 후 1초 뒤에 실행
