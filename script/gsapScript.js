@@ -25,6 +25,8 @@ share
   .from(".art10", { duration: 0.5, opacity: 0, y: 100 }, 1.5)
   .from(".mobile", { duration: 1, opacity: 0, y: 150 }, 1.5);
 
+gsap.to(".txt-box", { repeat: -1, repeatDelay: 3, y: -80, stagger: 0.2 });
+
 // &&
 // section2 func
 const func = gsap.timeline({
